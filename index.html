@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>TailwindTest</title>
+  </head>
+  <body>
+    <header class="realtive">
+      <div class="container">
+        <nav class="flex justify-between items-center pt-[26px]">
+          <a href="#"><img src="./image/Logo.svg" alt="logo" /></a>
+          <ul class="flex gap-12 md:hidden">
+            <li>
+              <a
+                href="#"
+                class="font-medium text-xl text-[#4D4244] hover:text-[darkred] lg:text-base"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-medium text-xl text-[#4D4244] hover:text-[darkred] lg:text-base"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-medium text-xl text-[#4D4244] hover:text-[darkred] lg:text-base"
+                >Case Studies</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-medium text-xl text-[#4D4244] hover:text-[darkred] lg:text-base"
+                >Careers</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-medium text-xl text-[#4D4244] hover:text-[darkred] lg:text-base"
+                >Blog</a
+              >
+            </li>
+          </ul>
+
+          <ul
+            id="menu"
+            class="hidden absolute left-6 right-6 top-[60px] bg-[#FF0D38] flex-col items-center"
+          >
+            <li><a href="#" class="py-6 text-white">About</a></li>
+            <li><a href="#" class="py-6 text-white">Services</a></li>
+            <li><a href="#" class="py-6 text-white">Case Studies</a></li>
+            <li><a href="#" class="py-6 text-white">Careers</a></li>
+            <li><a href="#" class="py-6 text-white">Blog</a></li>
+          </ul>
+
+          <!-- burger menu -->
+          <button class="burger hidden md:block">
+            <span class="burger-line top-line"></span>
+            <span class="burger-line middle-line"></span>
+            <span class="burger-line bottom-line"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="container">
+          <h1
+            class="pt-[100px] text-black font-black text-5xl max-w-2xl text-center mx-auto leading-snug lg:text-4xl lg:pt-16 md:3xl md:pt-12 md:w-full sm:pt-10 sm:text-2xl"
+          >
+            Grow your business online. Get. More. Leads.
+          </h1>
+          <p
+            class="text-xl tracking-tight text-center max-w-xl mx-auto mt-[18px] md:text-lg md:mt-4 sm:mt-2 sm:text-base"
+          >
+            Wanna get serious into digital marketing? Then you need leads and
+            this is where we can help you.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

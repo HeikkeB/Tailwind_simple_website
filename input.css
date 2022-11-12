@@ -12,6 +12,10 @@
   .container {
     @apply max-w-[1080px];
   }
+
+  .btn {
+    @apply tracking-tight py-[10px] rounded-2xl dark:text-gray-100;
+  }
 }
 
 .burger {

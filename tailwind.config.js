@@ -2,6 +2,16 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
+    color: {
+      lightblack: '#4D4244',
+      lightred: '#FF0D38',
+      darkred: '#D70026',
+      lightgray: '#747474',
+      darkgray: '#272727',
+    },
+    boxShadow: {
+      customRed: '0px 0px 30px rgba(255, 13, 56, 0.21)',
+    },
     screens: {
       lg: { max: '992px' },
       md: { max: '768px' },
@@ -11,15 +21,7 @@ module.exports = {
       padding: '20px',
       center: true,
     },
-    extend: {
-      color: {
-        lightblack: '#4D4244',
-        lightred: '#FF0D38',
-        darkred: '#D70026',
-        lightgray: '#747474',
-        darkgray: '#272727',
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
